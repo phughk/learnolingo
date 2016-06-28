@@ -6,10 +6,9 @@ import { HelloWorldService } from './hello-world.service'
   selector: 'ng2-hello-world',
   providers: [HelloWorldService],
   template: `<p id="hello">{{hello}}</p>`
-
 })
 
-export class HelloWorldComponent implements OnInit{
+export class HelloWorldComponent implements OnInit {
   hello: string
 
   constructor(private helloWorldService:HelloWorldService){

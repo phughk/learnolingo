@@ -1,5 +1,5 @@
 
-export class HelloWorldService{
+export class OptionService {
   getHello():string{
     return 'Hello World!'
   }

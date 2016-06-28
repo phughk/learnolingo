@@ -3,8 +3,8 @@ import { Component, OnInit } from '@angular/core'
 import { OptionService } from './option.service'
 
 @Component({
-  selector: 'ng2-hello-world',
-  providers: [HelloWorldService],
+  selector: 'ng2-option',
+  providers: [OptionService],
   template: `<p id="hello">{{hello}}</p>`
 
 })
